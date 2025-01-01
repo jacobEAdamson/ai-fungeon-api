@@ -17,3 +17,6 @@ testpaths = [
     "tests",
     "integration",
 ]
+
+[tool.ruff.lint]
+ignore = ["F401"]
