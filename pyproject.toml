@@ -1,0 +1,19 @@
+[project]
+name = "ai_fungeon_api"
+dependencies = [
+    "flask",
+]
+version = "0.1.0"
+description = "Backend for AI Fungeon"
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+    "integration",
+]
