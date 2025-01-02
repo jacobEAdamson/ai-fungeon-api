@@ -21,6 +21,12 @@ pip install -e .
 bin/start
 ```
 
+## Test
+
+```sh
+cp sample.env .test.env
+bin/test
+```
 
 ## License
 

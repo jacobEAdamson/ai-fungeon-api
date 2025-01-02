@@ -2,10 +2,9 @@ import os
 from flask import Flask
 from flask_cors import CORS
 
-app = Flask(__name__, instance_relative_config=True, static_url_path='/static')
-cors = CORS(app) # allow CORS for all domains on all routes.
-
-def create_app(test_config=None):  
+def create_app(test_config=None): 
+    app = Flask(__name__, instance_relative_config=True, static_url_path='/static')
+    cors = CORS(app) # allow CORS for all domains on all routes. 
     # create and configure the app
     app.config.from_mapping(
         SECRET_KEY='dev',
@@ -25,8 +24,7 @@ def create_app(test_config=None):
     except OSError:
         pass
 
-    import ai_fungeon_api.views
+    from ai_fungeon_api.views.root import root_blueprint
+    app.register_blueprint(root_blueprint)
 
     return app
-
-create_app()

@@ -173,3 +173,4 @@ cython_debug/
 /junit.xml
 /.vscode
 /cov.xml
+/.test.env

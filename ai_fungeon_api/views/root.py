@@ -1,11 +1,12 @@
-from flask import request
+from flask import request, current_app, Blueprint
 import requests
 import json
 
-from ai_fungeon_api import app
 from ai_fungeon_api.services.ai_chat_service import AiChatService
 
-@app.route('/')
+root_blueprint = Blueprint('root', __name__, url_prefix='')
+
+@root_blueprint.route('/')
 def index():
     person_name = request.args.get('person_name')
     user_ip = request.remote_addr

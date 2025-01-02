@@ -1,0 +1,233 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.3
+    method: GET
+    uri: https://api.ipify.org/?format=json
+  response:
+    body:
+      string: '{"ip":"108.77.86.15"}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 8fbcce9c7f8ee5e4-IAD
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '21'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 02 Jan 2025 18:28:07 GMT
+      Server:
+      - cloudflare
+      Vary:
+      - Origin
+      server-timing:
+      - cfL4;desc="?proto=TCP&rtt=15807&min_rtt=14497&rtt_var=8058&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2836&recv_bytes=775&delivery_rate=115918&cwnd=251&unsent_bytes=0&cid=cfa08f95c1a7f3cd&ts=61&x=0"
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.3
+    method: GET
+    uri: https://apip.cc/api-json/108.77.86.15
+  response:
+    body:
+      string: "{\r\n\"status\": \"success\",\n\"query\": \"108.77.86.15\",\n\"CountryCode\":
+        \"US\",\n\"CountryName\": \"United States\",\n\"Capital\": \"Washington D.C.\",\n\"PhonePrefix\":
+        \"+1\",\n\"Currency\": \"USD\",\n\"USDRate\": \"1\",\n\"EURRate\": \"1.03\",\n\"RegionCode\":
+        \"NC\",\n\"RegionName\": \"North Carolina\",\n\"City\": \"Chapel Hill\",\n\"Postal\":
+        \"27516\",\n\"Latitude\": \"35.9151\",\n\"Longitude\": \"-79.0972\",\n\"TimeZone\":
+        \"America/New_York\",\n\"ContinentCode\": \"NA\",\n\"ContinentName\": \"North
+        America\",\n\"asn\": \"AS7018\",\n\"org\": \"ATT-INTERNET4\"\n}"
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Origin:
+      - '*'
+      Cache-Control:
+      - max-age=3600
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '479'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 02 Jan 2025 18:28:08 GMT
+      Expires:
+      - Thu, 02 Jan 2025 19:28:08 GMT
+      Server:
+      - nginx
+      x-web:
+      - apip.cc
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"messages":[{"role":"user","content":"In this conversation, you will play
+      the part of a story writer. You write in a simple efficient style, without too
+      much flowery language. Write me a story about a person named None from Chapel
+      Hill, North Carolina. The story should be a fun one where the user discovers
+      a cool project on GitHub called \"AI Fungeon\" written by a humble developer
+      named Jacob Adamson. None plays around with the page a little, trying out the
+      simple story generator, slightly amused by slightly nonsensical story. They''re
+      pleasantly surprised by the code, which adheres to best practices, simple and
+      efficient. The story should be a couple paragraphs long. Consider these secret
+      random words: irony, outlook, effort, wallet, millimeter, collection, yoyo,
+      hair, footstool, capricious"}],"model":"meta-llama/llama-3.2-1b-instruct"}'
+    headers:
+      accept:
+      - application/json
+      accept-encoding:
+      - gzip, deflate
+      connection:
+      - keep-alive
+      content-length:
+      - '850'
+      content-type:
+      - application/json
+      host:
+      - openrouter.ai
+      user-agent:
+      - OpenAI/Python 1.58.1
+      x-stainless-arch:
+      - x64
+      x-stainless-async:
+      - 'false'
+      x-stainless-lang:
+      - python
+      x-stainless-os:
+      - Linux
+      x-stainless-package-version:
+      - 1.58.1
+      x-stainless-retry-count:
+      - '0'
+      x-stainless-runtime:
+      - CPython
+      x-stainless-runtime-version:
+      - 3.10.15
+    method: POST
+    uri: https://openrouter.ai/api/v1/chat/completions
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//4lKAAS4AAAAA///iQjABAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA
+        //9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD/
+        /0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//
+        QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9C
+        YgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0Ji
+        AgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmIC
+        AAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIA
+        AAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAA
+        AP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA
+        //9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD/
+        /0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//
+        QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9C
+        YgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0Ji
+        AgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmIC
+        AAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIA
+        AAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAA
+        AP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA
+        //9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD/
+        /0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//
+        QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9C
+        YgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0Ji
+        AgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmIC
+        AAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIA
+        AAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAA
+        AP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA
+        //9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD/
+        /0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//
+        QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9C
+        YgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0Ji
+        AgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmIC
+        AAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIA
+        AAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAA
+        AP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA
+        //9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD/
+        /0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//
+        QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9C
+        YgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0Ji
+        AgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmIC
+        AAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIA
+        AAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAA
+        AP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA
+        //9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD/
+        /0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//
+        QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9C
+        YgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0JiAgAAAP//QmICAAAA//9CYgIAAAD//0Ji
+        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
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      CF-RAY:
+      - 8fbccea0b961e613-IAD
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 02 Jan 2025 18:28:08 GMT
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      x-clerk-auth-message:
+      - Invalid JWT form. A JWT consists of three parts separated by dots. (reason=token-invalid,
+        token-carrier=header)
+      x-clerk-auth-reason:
+      - token-invalid
+      x-clerk-auth-status:
+      - signed-out
+    status:
+      code: 200
+      message: OK
+version: 1

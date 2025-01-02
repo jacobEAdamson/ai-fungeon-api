@@ -22,3 +22,7 @@ def client(app):
 @pytest.fixture()
 def runner(app):
     return app.test_cli_runner()
+
+@pytest.fixture(scope="module")
+def vcr_config():
+    return {"filter_headers": ["authorization"]}

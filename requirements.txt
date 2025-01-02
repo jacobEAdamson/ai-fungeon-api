@@ -1,9 +1,12 @@
 flask
+flask_cors
+openai
 pytest
 pytest-cov
-ruff
-openai
+pytest-dotenv
+pytest-recording
 python-dotenv
 requests
-flask_cors
+ruff
+vcrpy
 wonderwords
