@@ -2,7 +2,7 @@ import os
 from flask import Flask
 from flask_cors import CORS
 
-app = Flask(__name__, instance_relative_config=True)
+app = Flask(__name__, instance_relative_config=True, static_url_path='/static')
 cors = CORS(app) # allow CORS for all domains on all routes.
 
 def create_app(test_config=None):  

@@ -2,7 +2,7 @@
 
 # AI Fungeon
 
-This is a simple project to allow a user to generate a simple story using any OpenAI compatible API. Simply make create an `.env` file using the `sample.env` template as a guide, start the server on your machine, open the [demo page](https://github.com/jacobEAdamson/ai-fungeon-api/blob/master/demo.html) and type your name!
+This is a simple project to allow a user to generate a simple story using any OpenAI compatible API. Simply make create an `.env` file using the `sample.env` template as a guide, start the server on your machine, open the [demo page](http://localhost:5000/static/demo.html) and type your name!
 
 ## Installation
 
