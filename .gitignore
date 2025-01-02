@@ -171,4 +171,5 @@ cython_debug/
 .pypirc
 
 /junit.xml
-.vscode/settings.json
+/.vscode
+/cov.xml

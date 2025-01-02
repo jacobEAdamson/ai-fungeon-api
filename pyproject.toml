@@ -2,6 +2,10 @@
 name = "ai_fungeon_api"
 dependencies = [
     "flask",
+    "openai",
+    "requests",
+    "flask_cors",
+    "wonderwords",
 ]
 version = "0.1.0"
 description = "Backend for AI Fungeon"

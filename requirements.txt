@@ -2,3 +2,8 @@ flask
 pytest
 pytest-cov
 ruff
+openai
+python-dotenv
+requests
+flask_cors
+wonderwords

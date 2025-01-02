@@ -1,9 +1,11 @@
 import os
-
 from flask import Flask
-app = Flask(__name__, instance_relative_config=True)
+from flask_cors import CORS
 
-def create_app(test_config=None):
+app = Flask(__name__, instance_relative_config=True)
+cors = CORS(app) # allow CORS for all domains on all routes.
+
+def create_app(test_config=None):  
     # create and configure the app
     app.config.from_mapping(
         SECRET_KEY='dev',
@@ -26,3 +28,5 @@ def create_app(test_config=None):
     import ai_fungeon_api.views
 
     return app
+
+create_app()
