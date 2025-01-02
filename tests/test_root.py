@@ -8,7 +8,7 @@ def test_index(app, client):
     THEN check that the response is valid and includes key elements from the prompt
     """
 
-    response = client.get('/')
+    response = client.get('/example')
     assert response.status_code == 200
     assert b"Chapel Hill" in response.data
     assert b"Jacob" in response.data

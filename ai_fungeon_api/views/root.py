@@ -6,7 +6,7 @@ from ai_fungeon_api.services.ai_chat_service import AiChatService
 
 root_blueprint = Blueprint('root', __name__, url_prefix='')
 
-@root_blueprint.route('/')
+@root_blueprint.route('/example')
 def index():
     person_name = request.args.get('person_name')
     user_ip = request.remote_addr
