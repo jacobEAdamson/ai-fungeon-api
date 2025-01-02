@@ -24,7 +24,7 @@ class AiChatService:
             messages=[
                 {
                     "role": "user",
-                    "content": f"Write me a story about a person named {person_name} from {location}. The story should be a fun one where the user discovers a cool project on GitHub called \"AI Fungeon\" written by a humble developer named Jacob Adamson. The code adheres to best practices, simple and efficient. The story should be a couple paragraphs long. Consider these random words: {random_word_string}",
+                    "content": f"In this conversation, you will play the part of a story writer. You write in a simple efficient style, without too much flowery language. Write me a story about a person named {person_name} from {location}. The story should be a fun one where the user discovers a cool project on GitHub called \"AI Fungeon\" written by a humble developer named Jacob Adamson. {person_name} plays around with the page a little, trying out the simple story generator, slightly amused by slightly nonsensical story. They're pleasantly surprised by the code, which adheres to best practices, simple and efficient. The story should be a couple paragraphs long. Consider these secret random words: {random_word_string}",
                 }
             ],
             model=os.environ.get("OPENAI_MODEL"),
